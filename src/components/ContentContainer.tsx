@@ -24,7 +24,7 @@ export const ContentContainer: FC = props => {
           </li>
           <li>
             <Link href="/basics">
-              <a>Basics</a>
+              <a>Pre Roll</a>
             </Link>
           </li>
         </ul>
