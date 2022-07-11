@@ -15,7 +15,7 @@ export const ContentContainer: FC = props => {
         <label htmlFor="my-drawer" className="drawer-overlay"></label>
         <ul className="p-4 overflow-y-auto menu w-80 bg-base-100">
           <li>
-            <h1>Menu</h1>
+            <h1>Stoners</h1>
           </li>
           <li>
             <Link href="/">
