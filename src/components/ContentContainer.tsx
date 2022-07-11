@@ -19,12 +19,12 @@ export const ContentContainer: FC = props => {
           </li>
           <li>
             <Link href="/">
-              <a>Home</a>
+              <a>Pre Roll</a>
             </Link>
           </li>
           <li>
-            <Link href="/basics">
-              <a>Pre Roll</a>
+            <Link href="https://twitter.com/stonerswrld">
+              <a>Twitter</a>
             </Link>
           </li>
         </ul>
