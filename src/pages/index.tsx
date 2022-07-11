@@ -6,10 +6,10 @@ const Home: NextPage = (props) => {
   return (
     <div>
       <Head>
-        <title>Solana Scaffold</title>
+        <title>Stoners Pre Roll</title>
         <meta
           name="description"
-          content="Solana Scaffold"
+          content="Stoners Pre Roll"
         />
       </Head>
       <HomeView />
