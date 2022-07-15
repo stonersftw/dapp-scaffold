@@ -34,7 +34,6 @@ export const HomeView: FC = ({ }) => {
           Stoners Pre Roll
         </h1>
         <h4 className="md:w-full text-center text-slate-300 my-2">
-          <p>Sign up for mint.</p>
           Join the highest on the block.🍃
         </h4>
         <div className="max-w-md mx-auto mockup-code bg-primary p-6 my-2">
@@ -45,7 +44,7 @@ export const HomeView: FC = ({ }) => {
           <div className="text-center">
           <RequestAirdrop />
           {/* {wallet.publicKey && <p>Public Key: {wallet.publicKey.toBase58()}</p>} */}
-          {wallet && <p>SOL Balance: {(balance || 0).toLocaleString()}</p>}
+          {wallet && <p>Min. SOL Balance: 4.20. Wallet Balance: {(balance || 0).toLocaleString()}</p>}
         </div>
       </div>
     </div>
