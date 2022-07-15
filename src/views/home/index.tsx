@@ -44,7 +44,7 @@ export const HomeView: FC = ({ }) => {
           <div className="text-center">
           <RequestAirdrop />
           {/* {wallet.publicKey && <p>Public Key: {wallet.publicKey.toBase58()}</p>} */}
-          {wallet && <p>Min. SOL Balance: 4.20. Wallet Balance: {(balance || 0).toLocaleString()}</p>}
+          {wallet && <p>SOL Balance: {(balance || 0).toLocaleString()}</p>}
         </div>
       </div>
     </div>
