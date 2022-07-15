@@ -22,7 +22,7 @@ export const AppBar: FC = props => {
           </label>
         
           <div className="hidden sm:inline w-22 h-22 md:p-2">
-           <h2 className="text-center text-5xl md:pl-12 font-bold text-transparent bg-clip-text bg-gradient-to-tr from-[#9945FF] to-[#14F195]">
+           <h2 className="text-center font-bold text-transparent bg-clip-text bg-gradient-to-tr from-[#9945FF] to-[#14F195]">
           Stoners
            </h2>
           </div>
