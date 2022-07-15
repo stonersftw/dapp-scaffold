@@ -41,11 +41,9 @@ export const AppBar: FC = props => {
                   <stop offset="0.72" stopColor="#28E0B9" />
                   <stop offset="0.97" stopColor="#19FB9B" />
                 </linearGradient>
-                <clipPath id="clip0_1064_606">
-                  <rect width="646" height="96" fill="white" />
-                </clipPath>
               </defs>
             </svg>
+            <h1> Stoners </h1>
           </div>
         </div>
 
